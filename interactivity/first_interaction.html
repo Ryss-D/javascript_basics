@@ -1,0 +1,33 @@
+<!DOCTYPE html5>
+
+<!-- Coment-->
+
+<!-- Document - the root of the page socument.URL document.height documen.links etc-->
+<!-- element a node in the three Returned by a member of the |API-->
+<!-- nodeLIst and arraay (Gorup) of elemente document.getElementyTagName('p') would return a set of nodes-->
+
+<!-- Specific apis document.getElementById(id) document.getElementsByClassName(class) element,innerHTML element.style element.setAttribute(attribute, value) element.removeAtribute(attribute) -->
+
+<body>
+    <script>
+        // javascript things
+        //window.alert("alert things");
+    </script>
+    <noscript>
+        Things to print if browser does'nt support or has disabled javascript
+    </noscript>
+</body>
+
+<!-- ieg -->
+
+<script>
+    var name;
+    name = prompt("What is your name?");//defauult value is "null"
+    document.write(name);
+    document.write("<h1>" + name + "</h1>");
+    document.write(document.baseURI+"<br>");//give us the curret absolute url
+    document.write(document.title+"<br>");//guve the document tittle
+    var pars = document.getElementsByTagName('p');
+    document.write(pars + "<br/>");
+    document.write(pars.length)
+</script>
