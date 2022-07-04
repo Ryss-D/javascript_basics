@@ -1,0 +1,3 @@
+[submodule "vue_js"]
+	path = vue_js
+	url = git@github.com:Ryss-D/vue_js.git
