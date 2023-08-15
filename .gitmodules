@@ -1,3 +1,6 @@
 [submodule "vue_js"]
 	path = vue_js
 	url = git@github.com:Ryss-D/vue_js.git
+[submodule "node_js"]
+	path = node_js
+	url = git@github.com:Ryss-D/node_js.git
