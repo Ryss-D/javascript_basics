@@ -4,3 +4,6 @@
 [submodule "node_js"]
 	path = node_js
 	url = git@github.com:Ryss-D/node_js.git
+[submodule "react_js"]
+	path = react_js
+	url = git@github.com:Ryss-D/react_js.git
